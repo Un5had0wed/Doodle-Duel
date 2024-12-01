@@ -1,0 +1,11 @@
+@import './globals/variables.css';
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.game-window {
+    width: 100vw;
+    height: 100vh;
+}
