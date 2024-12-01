@@ -9,11 +9,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "aws-amplify": "^6.10.0",
     "preact": "^10.25.0"
   },
   "devDependencies": {
+    "@aws-amplify/backend": "^1.8.0",
+    "@aws-amplify/backend-cli": "^1.4.2",
     "@preact/preset-vite": "^2.9.1",
-    "typescript": "~5.6.2",
+    "aws-cdk": "^2.171.1",
+    "aws-cdk-lib": "^2.171.1",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.24.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
     "vite": "^6.0.1"
   }
 }
