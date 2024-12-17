@@ -1,0 +1,6 @@
+.mainBody {
+  display: flex;
+  height: var(--main-body-height);
+  gap: 10px;
+  align-items: stretch;
+}

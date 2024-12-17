@@ -1,3 +1,13 @@
 :root {
-    
+  --root-window-padding: 10px;
+  --root-border-radius: 10px;
+
+  --root-background: #e5d9f2;
+
+  --header-height: 10%;
+  --main-body-height: 90%;
+
+  --toolbar-width: 5%;
+  --drawing-canva-width: 65%;
+  --score-chat-width: 30%;
 }

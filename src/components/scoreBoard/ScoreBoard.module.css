@@ -1,0 +1,5 @@
+.scoreBoard {
+  flex: 1;
+  background-color: #cdc1ff;
+  border-radius: var(--root-border-radius);
+}

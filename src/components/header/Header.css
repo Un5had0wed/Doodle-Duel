@@ -1,0 +1,7 @@
+header {
+  height: var(--header-height);
+  border-radius: var(--root-border-radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

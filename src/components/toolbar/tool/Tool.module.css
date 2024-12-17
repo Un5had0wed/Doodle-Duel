@@ -1,0 +1,18 @@
+.tool {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  background-color: #fcffc1;
+  border-radius: var(--root-border-radius);
+  cursor: pointer;
+  border: 2px solid #fcffc1;
+}
+
+.tool__icon {
+  height: 100%;
+  width: 100;
+}
+
+.tool_selected {
+  border: 2px solid #ff748b;
+}

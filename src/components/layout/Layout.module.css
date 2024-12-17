@@ -1,0 +1,19 @@
+.gameLayout {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--root-window-padding);
+  padding: var(--root-window-padding);
+  box-sizing: border-box;
+}
+
+.gameLayout__scoreChatPanel {
+  background-color: #a294f9;
+  border-radius: var(--root-border-radius);
+  padding: calc(2 * var(--root-window-padding));
+  width: var(--score-chat-width);
+  display: flex;
+  flex-direction: column;
+  gap: calc(2 * var(--root-window-padding));
+}

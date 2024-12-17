@@ -1,0 +1,6 @@
+.drawingCanva {
+  width: var(--drawing-canva-width);
+  background-color: #fff;
+  border: 10px solid #213555;
+  border-radius: var(--root-border-radius);
+}

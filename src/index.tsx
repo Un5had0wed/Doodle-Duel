@@ -1,13 +1,15 @@
-import { render } from 'preact';
-import type { FC } from 'preact/compat';
-import './styles/main.css';
+import { render } from "preact";
+import type { FC } from "preact/compat";
+import { GameBody } from "./components/gameBody/GameBody";
+import { Layout } from "./components/layout/Layout";
+import "./styles/main.css";
 
 export const App: FC = () => {
-    return (
-        <div className='game-window'>
-            <h1>Doodle Duel</h1>
-        </div>
-    )
-}
+  return (
+    <GameBody>
+      <Layout />
+    </GameBody>
+  );
+};
 
-render(<App />, document.getElementById('app')!)
+render(<App />, document.getElementById("app")!);

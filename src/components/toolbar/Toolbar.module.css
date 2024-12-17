@@ -1,0 +1,11 @@
+.toolbar {
+  background-color: #a294f9;
+  width: var(--toolbar-width);
+  border-radius: var(--root-border-radius);
+  padding: var(--root-window-padding);
+  box-sizing: border-box;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+}
