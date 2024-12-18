@@ -1,3 +1,6 @@
 .gameHeader {
     flex: 1;
+    display: flex;
+    padding: var(--root-window-padding-vertical) var(--root-window-padding-horizontal);
+    align-items: center;
 }

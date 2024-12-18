@@ -1,0 +1,7 @@
+.playingArea {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex: 9;
+    gap: 10px;
+}
