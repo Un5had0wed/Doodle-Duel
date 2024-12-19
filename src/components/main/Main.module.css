@@ -1,7 +1,7 @@
 .gameMain {
-    flex: 9;
-    display: flex;
-    align-items: stretch;
-    padding: 0 var(--root-window-padding-horizontal);
-    gap: 10px;
+  flex: 9;
+  display: flex;
+  align-items: stretch;
+  padding: 0 var(--root-window-padding-horizontal);
+  gap: 10px;
 }

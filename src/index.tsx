@@ -1,5 +1,14 @@
 import { render } from "preact";
 import { App } from "./components/app/App.tsx";
+import { GameContextProvider } from "./contexts/game/GameContext.tsx";
+import { UserContextProvider } from "./contexts/user/UserContext.tsx";
 import "./styles/index.css";
 
-render(<App />, document.getElementById("app")!);
+render(
+  <UserContextProvider>
+    <GameContextProvider>
+      <App />
+    </GameContextProvider>
+  </UserContextProvider>,
+  document.getElementById("app")!,
+);
