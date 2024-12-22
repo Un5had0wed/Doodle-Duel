@@ -1,0 +1,8 @@
+:root {
+  --root-window-height: 1080px;
+  --root-window-width: 1920px;
+  --root-window-padding-horizontal: 10px;
+  --root-window-padding-vertical: 10px;
+
+  --root-background-color: #e7e3e2;
+}
