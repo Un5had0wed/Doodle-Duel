@@ -1,7 +1,7 @@
 import type { FC } from "preact/compat";
-import { useGameContext } from "../../contexts/game/GameContext";
-import { GameRoot } from "../gameRoot/GameRoot";
-import { HomePage } from "../homePage/HomePage";
+import { GameRoot } from "./components/gameRoot/GameRoot";
+import { HomePage } from "./components/homePage/HomePage";
+import { useGameContext } from "./contexts/game/GameContext";
 
 export const App: FC = () => {
   const { gameState } = useGameContext()!;
